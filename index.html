@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <!-- font A  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- script tailwind css  -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- google fonts link Open Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato&family=Open+Sans&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- google fonts link poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Lato&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@400;600&family=Red+Hat+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+  <!-- style css External file  -->
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-purple-700">
+  <!-- main session  -->
+  <main class="main inline-grid justify-evenly gap-4">
+    <!-- left section  -->
+    <div class="main_one">
+         <!-- logo image -->
+    <img class="image_logo absolute inset-x-16 mx-4 my-8 m z-10" src="./images/logo.svg" alt="Logo">
+    <!-- desktop_Background_image  -->
+    <img class="absolute inset-x-auto w-full z-0 brightness-90" src="./images/bg-desktop.svg" alt="desktop_image">
+    <!-- main_image  -->
+    <img class="main_image absolute inset-x-16 inset-y-32" src="./images/illustration-mockups.svg" alt="image">
+    </div>
+
+
+    <!-- right section  -->
+    <div class="right_div inline-grid absolute right-20 bottom-1/3 m-5 justify-center" >
+    <h1 class="font-extrabold text-5xl text-white ">Build The Community <br> Your Fans Will Love</h1>
+
+    <p class="font-normal text-justify py-8 text-white">Huddle re-imagines the way we build communities. You have <br> a voice. but so does your audience. Create connections with <br> your users as you engage in discussion.</p>
+    <!-- button session  -->
+    <button class="inline-flex rounded-xl justify-center bg-white text-purple-600 font-bold w-1/3">Register</button>
+  </div>
+  <!-- logo section  -->
+  <div class="inline-flex absolute right-10 bottom-10 justify-evenly gap-10 ">
+    <!-- facebook logo  -->
+    <i class="fa-brands fa-facebook fa-2xl" style="color: #f5f7fa;"><a href="facebook.com"></a></i>    
+    <!-- Twitter logo    -->
+    <i class="fa-brands fa-twitter fa-2xl" style="color: #f5f7fa;"><a href="twitter.com"></a></i>
+    <!-- instagram logo -->
+    <i class="fa-brands fa-instagram fa-2xl" style="color:#f5f7fa"><a href="instagram.com"></a></i>
+  </div>
+  
+
+  <footer class="absolute bottom-0 left-auto">
+    <div>
+      <p class="attribution ">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://www.linkedin.com/in/shaik-nizamuddin-7a400424b">Shaik.Nizamuddin</a>.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
